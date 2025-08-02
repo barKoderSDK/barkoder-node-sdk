@@ -52,11 +52,11 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/barkoder/barkoder-nodejs"
+    "url": "https://github.com/barKoderSDK/barkoder-node-sdk.git"
   },
   "homepage": "https://barkoder.com",
   "bugs": {
-    "url": "https://github.com/barkoder/barkoder-nodejs/issues"
+    "url": "https://github.com/barKoderSDK/barkoder-node-sdk.git/issues"
   },
   "dependencies": {
     "node-addon-api": "^7.0.0"
