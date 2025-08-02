@@ -1,0 +1,15 @@
+# Development files - don't include in npm package
+config.json
+examples/
+test/
+node_modules/
+build/
+.github/
+.vscode/
+*.log
+.DS_Store
+.nyc_output
+coverage/
+
+# Keep only what's needed for the package
+# Files to include are specified in package.json "files" field

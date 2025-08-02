@@ -1,0 +1,1 @@
+cmd_Release/barkoder.node := ln -f "Release/obj.target/barkoder.node" "Release/barkoder.node" 2>/dev/null || (rm -rf "Release/barkoder.node" && cp -af "Release/obj.target/barkoder.node" "Release/barkoder.node")

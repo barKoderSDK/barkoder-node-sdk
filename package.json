@@ -1,0 +1,74 @@
+{
+  "name": "@barkoder/barcode-scanner",
+  "version": "1.6.0",
+  "description": "High-performance Node.js barcode scanning SDK supporting 40+ barcode formats",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "src": "src"
+  },
+  "files": [
+    "lib/",
+    "src/",
+    "binding.gyp",
+    "README.md",
+    "LICENSE",
+    "config.template.json"
+  ],
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "rebuild": "node-gyp rebuild", 
+    "install": "node-gyp rebuild",
+    "test": "npm run test:basic && npm run test:image",
+    "test:basic": "node test/basic.test.js",
+    "test:image": "node examples/decode-image.js",
+    "test:all": "npm run test:basic && npm run test:image",
+    "prepublishOnly": "npm run clean && npm run build && npm test",
+    "prepack": "npm run build",
+    "clean": "node-gyp clean",
+    "configure": "node-gyp configure",
+    "build:debug": "node-gyp rebuild --debug",
+    "docs": "echo 'See README.md for documentation'"
+  },
+  "keywords": [
+    "barcode", 
+    "qr", 
+    "qr-code",
+    "pdf417", 
+    "datamatrix",
+    "code128",
+    "scanning", 
+    "barkoder",
+    "computer-vision",
+    "image-processing",
+    "native-addon"
+  ],
+  "author": {
+    "name": "barKoder",
+    "url": "https://barkoder.com"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barkoder/barkoder-nodejs"
+  },
+  "homepage": "https://barkoder.com",
+  "bugs": {
+    "url": "https://github.com/barkoder/barkoder-nodejs/issues"
+  },
+  "dependencies": {
+    "node-addon-api": "^7.0.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^10.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "os": ["linux"],
+  "cpu": ["x64", "arm64"],
+  "gypfile": true
+}

@@ -1,0 +1,6 @@
+{
+  "app_name": "my-barcode-app",
+  "license_key": "YOUR_LICENSE_KEY_HERE",
+  "description": "My barcode scanning application",
+  "version": "1.0.0"
+}
