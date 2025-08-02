@@ -44,3 +44,4 @@ config.json
 .scansCount
 .keyHash
 .license
+package-lock.json
