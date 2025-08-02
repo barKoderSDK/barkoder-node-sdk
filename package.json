@@ -1,6 +1,6 @@
 {
   "name": "@barkoder/barcode-nodejs-scanner",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "High-performance Node.js barcode scanning SDK supporting 40+ barcode formats",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -19,7 +19,7 @@
   ],
   "scripts": {
     "build": "node-gyp rebuild",
-    "rebuild": "node-gyp rebuild", 
+    "rebuild": "node-gyp rebuild",
     "install": "node-gyp rebuild",
     "test": "npm run test:basic && npm run test:image",
     "test:basic": "node test/basic.test.js",
@@ -33,13 +33,13 @@
     "docs": "echo 'See README.md for documentation'"
   },
   "keywords": [
-    "barcode", 
-    "qr", 
+    "barcode",
+    "qr",
     "qr-code",
-    "pdf417", 
+    "pdf417",
     "datamatrix",
     "code128",
-    "scanning", 
+    "scanning",
     "barkoder",
     "computer-vision",
     "image-processing",
@@ -68,7 +68,12 @@
   "engines": {
     "node": ">=16.0.0"
   },
-  "os": ["linux"],
-  "cpu": ["x64", "arm64"],
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
   "gypfile": true
 }
