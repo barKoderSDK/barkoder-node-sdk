@@ -2,9 +2,9 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "../barkoder_extension_module/Barkoder.hpp"
-#include "../barkoder_extension_module/Config.hpp"
-#include "../barkoder_extension_module/json/cJSON.h"
+#include "Barkoder.hpp"
+#include "Config.hpp"
+#include "json/cJSON.h"
 
 using namespace NSBarkoder;
 
