@@ -38,20 +38,20 @@ npm install @barkoder/barcode-scanner
 
 - Node.js 16+ 
 - Linux (x86_64 or ARM64)
-- Python 3.x and build tools for native compilation
+- Build tools for native compilation
 - libcurl development headers
 
 **Install system dependencies:**
 
 ```bash
 # Ubuntu/Debian
-sudo apt-get install build-essential python3-dev libcurl4-openssl-dev
+sudo apt-get install build-essential libcurl4-openssl-dev
 
 # Amazon Linux/RHEL/CentOS
-sudo dnf install gcc-c++ python3-devel libcurl-devel
+sudo dnf install gcc-c++ libcurl-devel
 
 # Or use yum on older systems
-sudo yum install gcc-c++ python3-devel libcurl-devel
+sudo yum install gcc-c++ libcurl-devel
 ```
 
 ## Quick Start
@@ -294,7 +294,6 @@ This SDK requires a valid license key from [Barkoder](https://barkoder.com). The
 
 **Build failures**
 - Install system build dependencies
-- Ensure Python 3.x is available
 - Check libcurl development headers are installed
 
 ## Support

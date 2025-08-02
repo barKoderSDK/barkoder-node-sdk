@@ -1,5 +1,5 @@
 {
-  "name": "@barkoder/barcode-scanner",
+  "name": "@barkoder/barcode-nodejs-scanner",
   "version": "1.6.0",
   "description": "High-performance Node.js barcode scanning SDK supporting 40+ barcode formats",
   "main": "lib/index.js",
